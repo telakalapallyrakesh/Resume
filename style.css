@@ -1,0 +1,52 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    padding-left: 15px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid rgb(166, 238, 166);
+}
+.navbar-left{
+    padding-left: 15px;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.a-element{
+    padding-right: 5px;
+    text-align: center;
+    border: 2px solid rgb(147, 231, 147);
+    margin: 15px;
+    width: 75px;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.About-left{
+    width: 700px;
+    height: 400px;
+   background-color: pink;
+   padding-left: 30px;
+}
+.About-right{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(161, 210, 226);
+
+}
+.para{
+    padding-left: 30px;
+}
+.heading{
+    text-align: center;
+}
