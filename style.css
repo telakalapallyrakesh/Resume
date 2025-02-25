@@ -1,52 +1,71 @@
-h1{
-    color: red;
-    text-align: center;
-}
-h2{
-    padding-left: 15px;
+.head{
+    color: green;
 }
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid rgb(166, 238, 166);
+    border: 2px solid red;
+    background-color: rgb(124, 218, 124);
+   
 }
 .navbar-left{
     padding-left: 15px;
+    
 }
 .navbar-right{
+    padding-right: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+   
 }
 .a-element{
-    padding-right: 5px;
+    width: 70px;
+    border: 2px solid ;
+    margin: 5px;
     text-align: center;
-    border: 2px solid rgb(147, 231, 147);
-    margin: 15px;
-    width: 75px;
+    color: blue;
 }
-.About{
+.About1{
+    align-items: center;
+    
+}
+.About-bottom{
+  text-align: center;
+}
+.About-top{
+    text-align: center;
+}
+.name{
+    color: rgb(0, 19, 185);
+}
+.Eduation1{
+    padding: 20px;
+    background-color: black;
+}
+.edu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+    
+    margin: 8px;
+    background: rgb(7, 6, 6);
+    
 }
-.About-left{
-    width: 700px;
-    height: 400px;
-   background-color: pink;
-   padding-left: 30px;
+.details{
+    width: 60vw;
+    color: green;
 }
-.About-right{
-    width: 700px;
-    height: 400px;
-    background-color: rgb(161, 210, 226);
-
+.photo{
+    padding: 20px;
 }
-.para{
-    padding-left: 30px;
+.skill-set{
+    text-transform: uppercase;
 }
-.heading{
-    text-align: center;
+.Skills{
+    border: 6px solid black;
+    color: white;
+    background-color: rgb(7, 6, 6) ;
 }
